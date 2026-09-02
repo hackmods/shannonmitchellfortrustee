@@ -2,6 +2,8 @@
 
 Campaign website for Shannon Mitchell, Public School Board Trustee — District School Board of Niagara (Niagara Falls).
 
+**Website:** [shannonmitchellfortrustee.com](https://shannonmitchellfortrustee.com)
+
 ## About
 
 Static HTML, CSS, and JavaScript site built from official Mitchell 2026 campaign branding and content. No build step required — upload the files to any web host.

@@ -630,6 +630,20 @@ a:hover {
   margin-top: 0.25rem;
 }
 
+.footer-domain {
+  font-size: 0.875rem;
+  margin-top: 0.35rem;
+}
+
+.footer-domain a {
+  color: var(--yellow);
+  font-weight: 500;
+}
+
+.footer-domain a:hover {
+  color: var(--white);
+}
+
 .footer-nav {
   grid-column: 2;
   grid-row: 1 / 3;
