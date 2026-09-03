@@ -4,6 +4,8 @@ Campaign website for Shannon Mitchell, Public School Board Trustee — District 
 
 **Website:** [shannonmitchellfortrustee.com](https://shannonmitchellfortrustee.com)
 
+**Campaign reference:** See [CAMPAIGN_REFERENCE.md](./CAMPAIGN_REFERENCE.md) for bio, messaging, branding, Instagram research, and source material.
+
 ## About
 
 Static HTML, CSS, and JavaScript site built from official Mitchell 2026 campaign branding and content. No build step required — upload the files to any web host.
@@ -21,12 +23,17 @@ Then visit `http://localhost:8080`.
 ## Project structure
 
 ```
-├── index.html          # Main page
-├── css/styles.css      # Styles (Mitchell 2026 brand)
-├── js/main.js          # Navigation, scroll animations
-└── assets/
-    ├── favicon.svg
-    └── images/         # Campaign photos
+├── index.html              # Main page
+├── css/styles.css          # Mitchell 2026 brand styles
+├── js/main.js              # Navigation, scroll animations
+├── CAMPAIGN_REFERENCE.md   # Research, messaging, and source notes
+├── assets/
+│   ├── favicon.svg
+│   ├── instagram-posts.json
+│   └── images/
+│       ├── shannon-0.jpeg          # Headshot (from campaign PDF)
+│       ├── campaign-sign-page.png  # Sign artwork (from campaign PDF)
+│       └── instagram/              # Community photos from @shannonmitchellnf
 ```
 
 ## Brand colors
