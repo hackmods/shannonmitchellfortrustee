@@ -44,8 +44,7 @@ Compiled research and source material for the re-election website of **Shannon M
 | Channel | Detail |
 |---------|--------|
 | **Website** | https://shannonmitchellfortrustee.com |
-| **Campaign email (site)** | info@shannonmitchellfortrustee.com |
-| **Campaign email (2022 election filing)** | mitchellforschoolboard@gmail.com |
+| **Campaign email** | shannonmitchellnf@gmail.com |
 | **Instagram** | [@shannonmitchellnf](https://www.instagram.com/shannonmitchellnf/) |
 | **DSBN board listing** | [dsbn.org/about/board-of-trustees](https://www.dsbn.org/about/board-of-trustees/) |
 
