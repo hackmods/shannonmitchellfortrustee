@@ -157,7 +157,7 @@ a:hover {
 .site-nav {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 .site-nav a {
@@ -976,7 +976,7 @@ a:hover {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 960px) {
   .nav-toggle {
     display: flex;
   }
@@ -1012,7 +1012,9 @@ a:hover {
   .site-nav a::after {
     display: none;
   }
+}
 
+@media (max-width: 768px) {
   .priority {
     grid-template-columns: 1fr;
     gap: 0.75rem;
