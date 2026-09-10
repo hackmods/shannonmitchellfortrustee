@@ -32,7 +32,7 @@ Then visit `http://localhost:8080`.
 │   ├── instagram-posts.json
 │   └── images/
 │       ├── shannon-0.jpeg          # Headshot (from campaign PDF)
-│       ├── campaign-sign-page.png  # Sign artwork (from campaign PDF)
+│       ├── campaign-sign-page.png  # Sign artwork (featured on lawn sign section)
 │       └── instagram/              # Community photos from @shannonmitchellnf
 ```
 

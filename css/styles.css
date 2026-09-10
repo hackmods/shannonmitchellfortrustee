@@ -157,7 +157,7 @@ a:hover {
 .site-nav {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 .site-nav a {
@@ -414,6 +414,7 @@ a:hover {
 
 .section-header h2,
 .about-content h2,
+.lawn-sign-content h2,
 .cta-content h2 {
   font-size: clamp(1.625rem, 3.5vw, 2.35rem);
   font-weight: 900;
@@ -709,6 +710,45 @@ a:hover {
   color: var(--orange);
 }
 
+/* Lawn sign */
+.lawn-sign {
+  background: var(--cream);
+}
+
+.lawn-sign-grid {
+  display: grid;
+  grid-template-columns: minmax(260px, 0.95fr) 1.05fr;
+  gap: clamp(2rem, 4vw, 3.5rem);
+  align-items: center;
+  background: var(--white);
+  padding: clamp(1.5rem, 3vw, 2.5rem);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow);
+}
+
+.lawn-sign-photo {
+  position: relative;
+}
+
+.lawn-sign-photo img {
+  width: 100%;
+  border-radius: var(--radius-lg);
+  background: var(--white);
+  object-fit: contain;
+  box-shadow: var(--shadow-lg), 8px 8px 0 0 var(--yellow);
+}
+
+.lawn-sign-content p {
+  margin-bottom: 1rem;
+  color: var(--text-muted);
+  max-width: 38rem;
+  line-height: 1.65;
+}
+
+.lawn-sign-content .btn {
+  margin-top: 0.5rem;
+}
+
 /* CTA */
 .cta {
   padding: var(--space-section) 0;
@@ -860,7 +900,8 @@ a:hover {
 /* Responsive */
 @media (max-width: 900px) {
   .hero-grid,
-  .about-grid {
+  .about-grid,
+  .lawn-sign-grid {
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }
@@ -880,6 +921,10 @@ a:hover {
 
   .about-photo img {
     max-height: 320px;
+  }
+
+  .lawn-sign-photo img {
+    max-height: 280px;
   }
 
   .card-grid {
@@ -919,7 +964,7 @@ a:hover {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 960px) {
   .nav-toggle {
     display: flex;
   }
@@ -955,7 +1000,9 @@ a:hover {
   .site-nav a::after {
     display: none;
   }
+}
 
+@media (max-width: 768px) {
   .priority {
     grid-template-columns: 1fr;
     gap: 0.75rem;

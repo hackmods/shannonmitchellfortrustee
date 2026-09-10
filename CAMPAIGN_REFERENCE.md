@@ -45,6 +45,7 @@ Compiled research and source material for the re-election website of **Shannon M
 |---------|--------|
 | **Website** | https://shannonmitchellfortrustee.com |
 | **Campaign email** | shannonmitchellnf@gmail.com |
+| **Lawn sign request** | [Google Form](https://forms.gle/5p19tjbZmsANrccXA) |
 | **Instagram** | [@shannonmitchellnf](https://www.instagram.com/shannonmitchellnf/) |
 | **DSBN board listing** | [dsbn.org/about/board-of-trustees](https://www.dsbn.org/about/board-of-trustees/) |
 
@@ -163,7 +164,7 @@ Photos sourced from the public [@shannonmitchellnf](https://www.instagram.com/sh
 | `assets/images/instagram/community-onam.jpg` | Gallery | [DcltxZ5xpeN](https://www.instagram.com/p/DcltxZ5xpeN/) | United Keralites of Niagara Onam celebration |
 | `assets/images/instagram/nutrition-partners.jpg` | Gallery | [DY2HOkqRu0Z](https://www.instagram.com/p/DY2HOkqRu0Z/) | Niagara Nutrition Partners breakfast gala |
 | `assets/images/instagram/brock-graduation.jpg` | Gallery | [DZX0Fb7xXsV](https://www.instagram.com/p/DZX0Fb7xXsV/) | Brock University graduation |
-| `assets/images/campaign-sign-page.png` | *(asset only)* | — | Campaign sign artwork from PDF |
+| `assets/images/campaign-sign-page.png` | Lawn sign section | — | Campaign sign artwork from PDF |
 
 Machine-readable caption metadata: `assets/instagram-posts.json`
 
@@ -202,7 +203,8 @@ Machine-readable caption metadata: `assets/instagram-posts.json`
 | Our Record | `#record` | Campaign PDF accomplishments |
 | Priorities | `#priorities` | Campaign PDF platform |
 | In the Community | `#community` | Instagram photos |
-| Get Involved | `#get-involved` | Contact + Instagram CTA |
+| Lawn Sign | `#lawn-sign` | Campaign sign artwork + Google Form for address drop-off |
+| Get Involved | `#get-involved` | Lawn sign form, contact, and Instagram CTAs |
 | Footer | — | Domain, Instagram, legal disclaimer |
 
 ---
