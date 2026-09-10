@@ -1,6 +1,28 @@
 (function () {
   'use strict';
 
+  function getCampaignUrlFromComment(key) {
+    var pattern = new RegExp(key + '=([^\\s]+)');
+    for (var i = 0; i < document.childNodes.length; i++) {
+      var node = document.childNodes[i];
+      if (node.nodeType !== Node.COMMENT_NODE) {
+        continue;
+      }
+      var match = node.textContent.match(pattern);
+      if (match) {
+        return match[1];
+      }
+    }
+    return null;
+  }
+
+  var lawnSignFormUrl = getCampaignUrlFromComment('lawnSignForm');
+  if (lawnSignFormUrl) {
+    document.querySelectorAll('.js-lawn-sign-form').forEach(function (link) {
+      link.href = lawnSignFormUrl;
+    });
+  }
+
   const navToggle = document.querySelector('.nav-toggle');
   const siteNav = document.querySelector('.site-nav');
   const navLinks = document.querySelectorAll('.site-nav a, .footer-nav a');

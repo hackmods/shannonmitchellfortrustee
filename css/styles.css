@@ -414,6 +414,7 @@ a:hover {
 
 .section-header h2,
 .about-content h2,
+.lawn-sign-content h2,
 .cta-content h2 {
   font-size: clamp(1.625rem, 3.5vw, 2.35rem);
   font-weight: 900;
@@ -709,6 +710,45 @@ a:hover {
   color: var(--orange);
 }
 
+/* Lawn sign */
+.lawn-sign {
+  background: var(--navy);
+  color: var(--cream);
+}
+
+.lawn-sign-inner {
+  display: grid;
+  grid-template-columns: minmax(220px, 0.95fr) 1.05fr;
+  gap: clamp(2rem, 4vw, 3.5rem);
+  align-items: center;
+}
+
+.lawn-sign-art img {
+  width: 100%;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+}
+
+.lawn-sign-content h2 {
+  font-size: clamp(1.625rem, 3.5vw, 2.35rem);
+  font-weight: 900;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: var(--white);
+  margin-bottom: 1rem;
+}
+
+.lawn-sign-content p {
+  color: rgba(248, 244, 232, 0.88);
+  max-width: 36rem;
+  line-height: 1.65;
+  margin-bottom: 1.5rem;
+}
+
+.lawn-sign .section-label {
+  color: var(--yellow);
+}
+
 /* CTA */
 .cta {
   padding: var(--space-section) 0;
@@ -860,7 +900,8 @@ a:hover {
 /* Responsive */
 @media (max-width: 900px) {
   .hero-grid,
-  .about-grid {
+  .about-grid,
+  .lawn-sign-inner {
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }
