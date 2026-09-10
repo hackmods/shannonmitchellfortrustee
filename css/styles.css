@@ -718,13 +718,21 @@ a:hover {
 
 .lawn-sign-inner {
   display: grid;
-  grid-template-columns: minmax(220px, 0.95fr) 1.05fr;
+  grid-template-columns: minmax(200px, 0.75fr) 1.25fr;
   gap: clamp(2rem, 4vw, 3.5rem);
   align-items: center;
 }
 
+.lawn-sign-art {
+  margin: 0;
+  justify-self: center;
+  width: min(100%, 20rem);
+}
+
 .lawn-sign-art img {
   width: 100%;
+  max-height: min(13.5rem, 36vw);
+  object-fit: contain;
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-lg);
 }
@@ -921,6 +929,14 @@ a:hover {
 
   .about-photo img {
     max-height: 320px;
+  }
+
+  .lawn-sign-art {
+    width: min(100%, 17.5rem);
+  }
+
+  .lawn-sign-art img {
+    max-height: min(11.5rem, 32vw);
   }
 
   .card-grid {
